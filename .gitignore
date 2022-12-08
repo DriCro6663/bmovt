@@ -6,6 +6,7 @@
 /git_bat/
 /releases/
 
+*.cmd
 *.exe
 *.bat
 *.mp4
