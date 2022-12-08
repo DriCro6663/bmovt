@@ -15,13 +15,13 @@
 
 ## 概要
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lhHvjWNb8AA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![PC-9801シリーズ用_歴代Windows起動画面集め](http://img.youtube.com/vi/lhHvjWNb8AA/0.jpg)](https://www.youtube.com/watch?v=lhHvjWNb8AA)
 
 レトロパソコンの起動時の文字が流れる、あの感じの動画を作るプログラムです。
 
 ## デモ
 
-![bmovt_demo](./tests/boot_sample-min.gif)
+![bmovt_demo](./res/boot-sample.gif)
 
 ## 使い方
 
@@ -132,7 +132,7 @@ python -m bmovt
 
 ### py -> exe
 
-Nuitka で実行ファイルを作ると、クッソ時間が掛かります。（2 ~ 3 時間）
+Nuitka で実行ファイルを作ると、クッソ時間が掛かります。（1 ~ 2 時間）
 
 また、Nuitka は GCC[MinGW64] がないと C:\Users\UserName\AppData にインストールするか聞いてきますので [YES] を選択してください。
 
@@ -147,6 +147,17 @@ $ nuitka3 --help
     --onefile           : バイナリファイルを１つにまとめる
 ```
 
+| Nuitka options          | 説明                                |
+| :---------------------- | :---------------------------------- |
+| --help                  | ヘルプメッセージの表示              |
+| --onefile               | １つの実行ファイルをまとめる        |
+| --include-package       | パッケージ全体を含める              |
+| --follow-imports        | インポートされたモジュールを含める  |
+| --output-filename       | 実行ファイルの名前                  |
+| --mingw64               | mingw64 でコンパイル, default: MSVC |
+| --windows-icon-from-ico | アイコンの設定。Windows 限定        |
+| --enable-plugin         | プラグインの有効化                  |
+
 ```bash:Pyinstaller
 conda install -c conda-forge pyinstaller -y
 
@@ -155,15 +166,19 @@ pyinstaller ./bmovt/__main__.py --name "bmovt" --icon ".res/bmovt.ico" --onefile
 # --- or ---
 
 pyinstaller bmovt.spec --clean
-
-$ pyinstaller --help
-    --name          : exe ファイル名の指定
-    --onefile       : exe ファイルを１つにまとめる
-    --noconsole     : exe 実行時にコンソールの表示を抑制
-    --debug all     : デバッグ出力
-    --clean         : キャッシュを削除
-    --icon          : アイコンファイルのパスを指定
 ```
+
+| Pyinstaller options                 | 説明                                   |
+| :---------------------------------- | :------------------------------------- |
+| -h, --help                          | ヘルプメッセージの表示                 |
+| --clean                             | キャッシュを削除                       |
+| -F, --onefile                       | １つの実行ファイルにまとめる           |
+| -n NAME, --name NAME                | 実行ファイルの名前                     |
+| --add-data <SRC;DEST or SRC:DEST>   | バイナリ以外のファイルやフォルダの追加 |
+| --add-binary <SRC;DEST or SRC:DEST> | バイナリファイルの追加                 |
+| --hidden-import MODULENAME          | コードにないモジュールのインポート     |
+| --debug all                         | デバッグ出力                           |
+| -i, --icon <img.ico>                | アイコンの設定                         |
 
 </details>
 

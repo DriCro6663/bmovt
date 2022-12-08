@@ -1,5 +1,5 @@
-{LOADING: {TYPE: 1, TIME: 1.0, INTERVAL: 0.2, UNIT: SEC}, SHOW: {TYPE: GRADUALLY, TIME: 20, INTERVAL: 5, UNIT: FRAME}}
-module/platform/i86pc/kernel/Lux:tex data [0xfa0021,0xfx839d,]
+{LOADING: {TYPE: 1, TIME: 2.0, INTERVAL: 0.2, UNIT: SEC}, SHOW: {TYPE: GRADUALLY, TIME: 30, INTERVAL: 5, UNIT: FRAME}}
+module/platform/v76pc/kernel/Lux:tex data [0xfa0021,0xfx839d,]
 module disc /kernel:txt at [0xffa0d1,0xffa0dda1]
 System has successfully booted.
 
@@ -7,12 +7,12 @@ System has successfully booted.
 
 {LOADING: {TYPE: 1, TIME: 1.0, INTERVAL: 0.2, UNIT: SEC}, SHOW: {TYPE: F_BY_F, TIME: 0, INTERVAL: 0, UNIT: SEC}}
 Enter Your ID and Password...
-Enter Your ID      : DriCro6663
-Enter Your Password: ****************************
+Enter Your ID      : 縺ｽ繧九◆繝ｻ縺後☆縺ｨ
+Enter Your Password: 莠｡髴翫???螳滓ｳ√メ繝｣繝ｳ繝阪Ν
 
 =========================================================================================================================
 
-{LOADING: {TYPE: NONE, TIME: 0, INTERVAL: 0, UNIT: SEC}, SHOW: {TYPE: GRADUALLY, TIME: 20, INTERVAL: 5, UNIT: FRAME}}
+{LOADING: {TYPE: NONE, TIME: 0, INTERVAL: 0, UNIT: SEC}, SHOW: {TYPE: GRADUALLY, TIME: 30, INTERVAL: 5, UNIT: FRAME}}
 user id "agreesd" pass$ "select"
 checking...
 checking...
@@ -24,7 +24,7 @@ Autheritation Error.
 
 {LOADING: {TYPE: 1, TIME: 1.0, INTERVAL: 0.2, UNIT: SEC}, SHOW: {TYPE: F_BY_F, TIME: 0, INTERVAL: 0, UNIT: SEC}}
 Enter Your ID and Password...
-Enter Your ID      : DriCro6663
+Enter Your ID      : Voo.Lei.Rei
 Enter Your Password: ****************************
 
 =========================================================================================================================
@@ -40,7 +40,8 @@ checking for...[ 256.754432] Functions                      [ success ]
 checking for...[ 256.754455] Network Devices                [ success ]
 checking for...[ 256.754467] Regsitared Protocol Familiys   [ success ]
 checking for...[ 256.754468] Disk Dump                      [ success ]
-root nexus =i86pc
+checking for...[ /*!.@%"+>*] 繧ｦ繧｣繧ｸ繝｣逶､                 [ success ]
+root nexus =v76pc
 psude0 at root
 psude0 is.oscud
 scsi_vhci0 at root
@@ -58,7 +59,7 @@ if you want to make modifications to files:
 
 =========================================================================================================================
 
-{LOADING: {TYPE: NONE, TIME: 0.0, INTERVAL: 0.0, UNIT: FRAME}, SHOW: {TYPE: GRADUALLY, TIME: 90, INTERVAL: 2, UNIT: FRAME}}
+{LOADING: {TYPE: NONE, TIME: 0.0, INTERVAL: 0.0, UNIT: FRAME}, SHOW: {TYPE: GRADUALLY, TIME: 120, INTERVAL: 2, UNIT: FRAME}}
 PROGRESS: make file /sbin/fchesk/0x000001
 PROGRESS: make file /sbin/fchesk/0x000002
 PROGRESS: make file /sbin/fchesk/0x000003
@@ -80,42 +81,45 @@ PROGRESS: make file /sbin/fchesk/0x000012
 PROGRESS: make file /sbin/fchesk/0x000013
 PROGRESS: make file /sbin/fchesk/0x000014
 PROGRESS: make file /sbin/fchesk/0x000015
+PROGRESS: make file /sbin/fchesk/繝√Ε繝ｳ繝阪Ν逋ｻ骭ｲ繧医ｍ縺励￥縺ｭ！
+PROGRESS: make file /sbin/fchesk/繝九さ縲?繧ｿ繝?メ縲?繧ｶ縲?繧ｦ繧ｩ繝ｼ繝ｫ
+PROGRESS: make file /sbin/fchesk/繝ｭ繝?け繝槭Φ繧ｨ繧ｰ繧ｼ
 
 =========================================================================================================================
 
-{LOADING: {TYPE: 1, TIME: 2.0, INTERVAL: 0.2, UNIT: SEC}, SHOW: {TYPE: GRADUALLY, TIME: 30, INTERVAL: 5, UNIT: FRAME}}
-                          _!!!!!!!!!!_                          
-                      ?JJJOBBBBBBBBBBOJJJ?                      
-                `_EHBBBBBBgppppppppppgBBBBBBHE_`                
-              LL3BLGBB{LLL_          _LLL{BBGLB3LL              
-           `*&_$BQQL--         ````       --LQQB$_&*`           
-         `LBGLB3/           LLABBBRLL"         /3BLGBL`         
-        tEB"v9"`          *PBBBBBBBBBH9         `"9v"BEt        
-       BYvB3!          '/BBBB2=   `3BBBBY!         !3BvYB       
-     ;3BBM/           75BBBB/`      +oBBBR3          /MBB3;     
-    R%"Bbu    """"    8BBB1            9QBBBA"        ubB"%R    
-    RBBB"   ^LBBBB    8BBB1             +{BBBB         "BBBR    
-  .QBBB`  -QRBBBp`    ZMBBRM-             `BBBQ_        `BBBQ.  
-  .BBBB  ,BBBBB3/      "BBBBBJ!            BBBB_         BBBB.  
- tOBBS_ s$BBBB_`       `_BBBBBNp           BBBB_         _SBBOt 
- ABBBV  5BBBBB            !YBBBBBo||       BBBB_       '|BBBBBA 
- ABBBV  5BBBBB            =SBBBBBBBBSAA    BBBB_     AAGBBBBBBA 
- ABBBV  vZBBBB!`         !ZBBBA AAwBBBBBBBBBBBBBBBBBBBBBBA@BBBA 
- ABBBV   ,BBBBB2>     ?JJBBBBL"   `||SBBBBBBBBBBBBBBBBx|| VBBBA 
- tOBBS_    BBBBBBBBBBBBBBBBBp`           :BBBB           BBBBOt 
-  .BBBB    L9BBBBBBBBBBBBBwv             ,BBBB           BBBB.  
-  .QBBB`    `---!QQQQQBBBB1             `^BBRQ         ^&BBBQ.  
-    RBBB"             8BBBwv           L&BBBt          "BBBR    
-    R%"Bbu            8BBBBB9`       "9BBBB"-         ubB"%R    
-     ;3BBM/            :3BBBBBBB////BBBB57           /MBB3;     
-       BYvB3!            /6BBBBBBBBBBBB/'          !3BvYB       
-        tEB"v9"`             A9999999*          `"9v"BEt        
-         `LBGLB3/                              /3BLGBL`         
-           `*&_$BQQL--                    --LQQB$_&*`           
-              LL3BLGBB{LLL_          _LLL{BBGLB3LL              
-                `_EHBBBBBBgppppppppppgBBBBBBHE_`                
-                      ?JJJOBBBBBBBBBBOJJJ?                      
-                          _!!!!!!!!!!_                          
+{LOADING: {TYPE: 1, TIME: 3.0, INTERVAL: 0.2, UNIT: SEC}, SHOW: {TYPE: GRADUALLY, TIME: 30, INTERVAL: 5, UNIT: FRAME}}
+                       """"JJJJJJJJJJ""""                       
+                  ""JJJJJJJJJJJJJJJJJJJJJJJJ""                  
+               "JJJJJJJJJJJ!!!!!!!!!!JJJJJJJJJJJ"               
+            "JJJJJJJJ!!!```````^^rrr````!!!JJJJJJJJ"            
+          "JJJJJJJ!``````````^rrrrr^`````````!JJJJJJJ"          
+        "JJJJJJ!```````````^rrrrr^``````````````!JJJJJJ"        
+   _rr"JJJJJJ!```````````^rrrrr^``````````````````!JJJJJJ"      
+  _rvJJJJJJ!```````````^rrrrr^`````````````````!!!!!!JJJJJ"     
+  _vJJJJJJ````````````^rrrr^```!`````````````!"     "!JJJJJJ    
+   JJJJJv````````````^rrrr^`````!!!`````````!" ""   "v!!JJJJJ   
+  JJJJJvrr``````````^rrrr^``````!!`````````!"  """ ""_J`!JJJJJ  
+ "JJJJJrrr`````````^rrrr^````````!!!``````!"     """ "!``JJJJJ" 
+ JJJJJrrrrr```````^rrrr^```````````!J!!!!"          "!````JJJJJ 
+"JJJJ!^rrrr``````^rrrr^``````````````!""           "!`````!JJJJ"
+JJJJJ``rrrrr````^rrrr^``````````````````!!!"""""""!````````JJJJJ
+JJJJJ``rrrrr```^rrrr^``````````````````````````````````````JJJJJ
+JJJJJ```rrrrr``rrrr^```````````````````````````````````````JJJJJ
+JJJJJ```rrrrr`rrrrr````!```````````````````````````````````JJJJJ
+"JJJJ!```rrrr"rrrr`````!!``````````!!!!!!`````````````````!JJJJ"
+ JJJJJ```^rriiirr^```!!``````````!"      "!```````````````JJJJJ 
+ "JJJJJ```rrr"vr^`````!!!```````!" """     J`````````````JJJJJ" 
+  JJJJJ!```^rrr^```````!!```````J       "" J````````````!JJJJJ  
+   JJJJJ!`````````````J````````J   """""   J```````````!JJJJJ   
+    JJJJJJ````````````!!!!!!!!"      ""_" J```````````JJJJJJ    
+     "JJJJJ!````````````!""""           "!``````````!JJJJJ"     
+      "JJJJJJ!```````````````!!!!!!"""!!``````````!JJJJJJ"      
+        "JJJJJJ!````````````````````````````````!JJJJJJ"        
+          "JJJJJJJ!``````````````````````````!JJJJJJJ"          
+            "JJJJJJJJ!!!````````````````!!!JJJJJJJJ"            
+               "JJJJJJJJJJJ!!!!!!!!!!JJJJJJJJJJJ"               
+                  ""JJJJJJJJJJJJJJJJJJJJJJJJ""                  
+                       """"JJJJJJJJJJ""""                       
 
 =========================================================================================================================
 

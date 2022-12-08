@@ -13,13 +13,13 @@ I hereby express our gratitude for the abbreviation.
 
 ## Description
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lhHvjWNb8AA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Collection of Windows startup screens for PC-9801 series](http://img.youtube.com/vi/lhHvjWNb8AA/0.jpg)](https://www.youtube.com/watch?v=lhHvjWNb8AA)
 
 This is a program to make a video like that of a retro computer with the text that plays when the computer starts up.
 
 ## Demo
 
-![bmovt_demo](./tests/boot_sample-min.gif)
+![bmovt_demo](./res/boot-sample.gif)
 
 ## Usage
 
@@ -138,26 +138,36 @@ Also, Nuitka will ask if you want to install to C:\Users\UserName\AppData if you
 conda install -c conda-forge nuitka zstandard ordered-set -y
 
 nuitka --mingw64 --follow-imports --onefile . /bmovt/__main__.py
-
-$ nuitka3 --help
-    --mingw64       : compile with mingw64, default: MSVC
-    --follow-imports: include required modules in binary files
-    --onefile       : combine binary files into one.
 ```
+
+| Nuitka options          | Description                           |
+| :---------------------- | :------------------------------------ |
+| --help                  | display help messages                 |
+| --onefile               | put together a single executable file |
+| --include-package       | include the entire package            |
+| --follow-imports        | include imported modules              | --output-filename |
+| --output-filename       | name of the executable                |
+| --mingw64               | compile with mingw64, default: MSVC   |
+| --windows-icon-from-ico | Set icon; Windows only                |
+| --enable-plugin         | enable plugin                         |
 
 ```bash:Pyinstaller
 conda install -c conda-forge pyinstaller -y
 
 pyinstaller . /bmovt/__main__.py --name [fileName] --onefile --icon [./img/icon.ico] --noconsole
-
-$ pyinstaller --help
-    --name     : specify exe file name
-    --onefile  : combine exe files into one
-    --noconsole: Suppress console display when running exe
-    --debug all: debug output
-    --clean    : delete cache
-    --icon     : Specify the path to the icon file.
 ```
+
+| Pyinstaller options                 | Description                             |
+| :---------------------------------- | :-------------------------------------- |
+| -h, --help                          | display help messages                   |
+| -h, --help                          | display help messages                   | -clean               | remove cache |
+| -f, --onefile                       | combine into one executable file        | -n NAME, --name NAME |
+| -n NAME, --name NAME                | name of the executable file             |
+| --add-data <SRC;DEST or SRC:DEST>   | add non-binary files and folders        |
+| --add-binary <SRC;DEST or SRC:DEST> | add a binary file                       |
+| --hidden-import MODULENAME          | import modules that are not in the code |
+| --debug all                         | debug output                            |
+| -i, --icon <img.ico>                | set icon                                |
 
 </details>
 
@@ -169,6 +179,10 @@ $ pyinstaller --help
 ```bash:ffmpeg
 conda install -c conda-forge ffmpeg
 ```
+
+* When you create a binary file in Nuitka, Norton will give you [Heur.AdvML.B]. At that time, let Norton know the directory where the binary file will be created by referring to the figure below. For more information, [click here](https://www.wareko.jp/blog/nortons-false-detection-heur-advml-b-was-detected-by-automatic-protection-no-action-required ) for more information.
+
+    ![norton](./tests/norton.png)
 
 ## Updates
 
