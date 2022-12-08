@@ -1,0 +1,11 @@
+/*.build/
+/*.dist/
+/*.onefile-build/
+/build/
+/dist/
+/git_bat/
+/releases/
+
+*.exe
+*.bat
+*.mp4

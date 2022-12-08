@@ -1,0 +1,45 @@
+{LOADING: {TYPE: 0, TIME: 60, INTERVAL: 10, UNIT: FRAME}, SHOW: {TYPE: MOMENT, TIME: 0, INTERVAL: 0, UNIT: FRAME}}
+LOADING: {TYPE: 0, TIME: 60, INTERVAL: 10, UNIT: FRAME}, 
+SHOW: {TYPE: MOMENT, TIME: 0, INTERVAL: 0, UNIT: FRAME}
+
+================================================================================================================================
+
+{LOADING: {TYPE: 0, TIME: 1.0, INTERVAL: 0.1, UNIT: SEC}, SHOW: {TYPE: MOMENT, TIME: 0.0, INTERVAL: 0.0, UNIT: SEC}}
+LOADING: {TYPE: 0, TIME: 1.0, INTERVAL: 0.1, UNIT: SEC}, 
+SHOW: {TYPE: MOMENT, TIME: 0.0, INTERVAL: 0.0, UNIT: SEC}
+
+================================================================================================================================
+
+{LOADING: {TYPE: 1, TIME: 60, INTERVAL: 10, UNIT: FRAME}, SHOW: {TYPE: GRADUALLY, TIME: 120, INTERVAL: 10, UNIT: FRAME}}
+LOADING: {TYPE: 1, TIME: 60, INTERVAL: 10, UNIT: FRAME}, 
+SHOW: {TYPE: GRADUALLY, TIME: 120, INTERVAL: 10, UNIT: FRAME}
+
+================================================================================================================================
+
+{LOADING: {TYPE: 1, TIME: 1.0, INTERVAL: 0.1, UNIT: SEC}, SHOW: {TYPE: GRADUALLY, TIME: 2.0, INTERVAL: 0.1, UNIT: SEC}}
+LOADING: {TYPE: 1, TIME: 1.0, INTERVAL: 0.1, UNIT: SEC}, 
+SHOW: {TYPE: GRADUALLY, TIME: 2.0, INTERVAL: 0.1, UNIT: SEC}
+
+================================================================================================================================
+
+{LOADING: {TYPE: 2, TIME: 60, INTERVAL: 10, UNIT: FRAME}, SHOW: {TYPE: L_BY_L, TIME: 120, INTERVAL: 10, UNIT: FRAME}}
+LOADING: {TYPE: 2, TIME: 60, INTERVAL: 10, UNIT: FRAME}, 
+SHOW: {TYPE: L_BY_L, TIME: 120, INTERVAL: 10, UNIT: FRAME}
+
+================================================================================================================================
+
+{LOADING: {TYPE: 2, TIME: 1.0, INTERVAL: 0.1, UNIT: SEC}, SHOW: {TYPE: L_BY_L, TIME: 2.0, INTERVAL: 0.1, UNIT: SEC}}
+LOADING: {TYPE: 2, TIME: 1.0, INTERVAL: 0.1, UNIT: SEC}, 
+SHOW: {TYPE: L_BY_L, TIME: 2.0, INTERVAL: 0.1, UNIT: SEC}
+
+================================================================================================================================
+
+{LOADING: {TYPE: 3, TIME: 60, INTERVAL: 10, UNIT: FRAME}, SHOW: {TYPE: F_BY_F, TIME: 0, INTERVAL: 0, UNIT: FRAME}}
+LOADING: {TYPE: 3, TIME: 60, INTERVAL: 10, UNIT: FRAME}, 
+SHOW: {TYPE: F_BY_F, TIME: 0, INTERVAL: 0, UNIT: FRAME}
+
+================================================================================================================================
+
+{LOADING: {TYPE: 3, TIME: 1.0, INTERVAL: 0.1, UNIT: SEC}, SHOW: {TYPE: F_BY_F, TIME: 0, INTERVAL: 0, UNIT: SEC}}
+LOADING: {TYPE: 3, TIME: 1.0, INTERVAL: 0.1, UNIT: SEC}, 
+SHOW: {TYPE: F_BY_F, TIME: 0, INTERVAL: 0, UNIT: SEC}

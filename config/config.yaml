@@ -1,0 +1,12 @@
+output_path: "./boot.mp4"                     # 動画の出力ディレクトリ/動画名.mp4
+font_path: "./res/Myrica/Myrica.TTC"          # フォントのパス
+width: 1920                                   # 解像度ヨコ
+height: 1080                                  # 解像度タテ
+fps: 60                                       # FPS
+fourcc: "mp4a"                                # 動画作成時のコーデック: ../tests/fourcc_tag-mp4.txt を参照
+crf: 16                                       # 動画圧縮プロパティ: 0(品質：良, サイズ：大) < crf < 51(品質：悪, サイズ：小)
+separator: !!python/str "=+\n+"               # 区切り文字
+bg_color: !!python/tuple [0,0,0,255]          # バックグラウンドの色: tuple(r, g, b, a)
+font_color: !!python/tuple [255,255,255,255]  # フォントの色: tuple(r, g, b, a)
+font_size: 32                                 # テキストサイズ: pixels: https://www.linesmix.com/fonts.html
+spacing: 4                                    # テキストの行間: pixels

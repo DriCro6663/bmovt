@@ -1,0 +1,126 @@
+{LOADING: {TYPE: 1, TIME: 2.0, INTERVAL: 0.2, UNIT: SEC}, SHOW: {TYPE: GRADUALLY, TIME: 30, INTERVAL: 5, UNIT: FRAME}}
+module/platform/v76pc/kernel/Lux:tex data [0xfa0021,0xfx839d,]
+module disc /kernel:txt at [0xffa0d1,0xffa0dda1]
+System has successfully booted.
+
+=========================================================================================================================
+
+{LOADING: {TYPE: 1, TIME: 1.0, INTERVAL: 0.2, UNIT: SEC}, SHOW: {TYPE: F_BY_F, TIME: 0, INTERVAL: 0, UNIT: SEC}}
+Enter Your ID and Password...
+Enter Your ID      : 縺ｽ繧九◆繝ｻ縺後☆縺ｨ
+Enter Your Password: 莠｡髴翫???螳滓ｳ√メ繝｣繝ｳ繝阪Ν
+
+=========================================================================================================================
+
+{LOADING: {TYPE: NONE, TIME: 0, INTERVAL: 0, UNIT: SEC}, SHOW: {TYPE: GRADUALLY, TIME: 30, INTERVAL: 5, UNIT: FRAME}}
+user id "agreesd" pass$ "select"
+checking...
+checking...
+checking...
+ErrorCode [0xe19323d0,0x000000]
+Autheritation Error.
+
+=========================================================================================================================
+
+{LOADING: {TYPE: 1, TIME: 1.0, INTERVAL: 0.2, UNIT: SEC}, SHOW: {TYPE: F_BY_F, TIME: 0, INTERVAL: 0, UNIT: SEC}}
+Enter Your ID and Password...
+Enter Your ID      : Voo.Lei.Rei
+Enter Your Password: ****************************
+
+=========================================================================================================================
+
+{LOADING: {TYPE: NONE, TIME: 0, INTERVAL: 0, UNIT: SEC}, SHOW: {TYPE: GRADUALLY, TIME: 30, INTERVAL: 5, UNIT: FRAME}}
+user id "agreesd" pass$ "select"
+checking for...[ 256.754411] Central Processing Unit        [ success ]
+checking for...[ 256.754415] Graphics Processing Unit       [ success ]
+checking for...[ 256.754417] RAM Memories                   [ success ]
+checking for...[ 256.754417] RAM Memories                   [ success ]
+checking for...[ 256.754431] DOGE PCS                       [ success ]
+checking for...[ 256.754432] Functions                      [ success ]
+checking for...[ 256.754455] Network Devices                [ success ]
+checking for...[ 256.754467] Regsitared Protocol Familiys   [ success ]
+checking for...[ 256.754468] Disk Dump                      [ success ]
+checking for...[ /*!.@%"+>*] 繧ｦ繧｣繧ｸ繝｣逶､                 [ success ]
+root nexus =v76pc
+psude0 at root
+psude0 is.oscud
+scsi_vhci0 at root
+scsi_chci0 /ram disk
+Got Boot Driver = 10Servise/pierAPISformExpert./cofine/kernel
+Lounced is LP32.
+Root device is mounted only.
+
+=========================================================================================================================
+
+{LOADING: {TYPE: NONE, TIME: 0.0, INTERVAL: 0.0, UNIT: FRAME}, SHOW: {TYPE: GRADUALLY, TIME: 10, INTERVAL: 2, UNIT: FRAME}}
+if you want to make modifications to files:
+    /sbin/fchesk -fy
+    /sbin/mount -mw
+
+=========================================================================================================================
+
+{LOADING: {TYPE: NONE, TIME: 0.0, INTERVAL: 0.0, UNIT: FRAME}, SHOW: {TYPE: GRADUALLY, TIME: 120, INTERVAL: 2, UNIT: FRAME}}
+PROGRESS: make file /sbin/fchesk/0x000001
+PROGRESS: make file /sbin/fchesk/0x000002
+PROGRESS: make file /sbin/fchesk/0x000003
+PROGRESS: make file /sbin/fchesk/0x000004
+PROGRESS: make file /sbin/fchesk/0x000005
+PROGRESS: make file /sbin/fchesk/0x000006
+PROGRESS: make file /sbin/fchesk/0x000007
+PROGRESS: make file /sbin/fchesk/0x000008
+PROGRESS: make file /sbin/fchesk/0x000009
+PROGRESS: make file /sbin/fchesk/0x00000a
+PROGRESS: make file /sbin/fchesk/0x00000b
+PROGRESS: make file /sbin/fchesk/0x00000c
+PROGRESS: make file /sbin/fchesk/0x00000d
+PROGRESS: make file /sbin/fchesk/0x00000e
+PROGRESS: make file /sbin/fchesk/0x00000f
+PROGRESS: make file /sbin/fchesk/0x000010
+PROGRESS: make file /sbin/fchesk/0x000011
+PROGRESS: make file /sbin/fchesk/0x000012
+PROGRESS: make file /sbin/fchesk/0x000013
+PROGRESS: make file /sbin/fchesk/0x000014
+PROGRESS: make file /sbin/fchesk/0x000015
+PROGRESS: make file /sbin/fchesk/繝√Ε繝ｳ繝阪Ν逋ｻ骭ｲ繧医ｍ縺励￥縺ｭ！
+PROGRESS: make file /sbin/fchesk/繝九さ縲?繧ｿ繝?メ縲?繧ｶ縲?繧ｦ繧ｩ繝ｼ繝ｫ
+PROGRESS: make file /sbin/fchesk/繝ｭ繝?け繝槭Φ繧ｨ繧ｰ繧ｼ
+
+=========================================================================================================================
+
+{LOADING: {TYPE: 1, TIME: 3.0, INTERVAL: 0.2, UNIT: SEC}, SHOW: {TYPE: GRADUALLY, TIME: 30, INTERVAL: 5, UNIT: FRAME}}
+                       """"JJJJJJJJJJ""""                       
+                  ""JJJJJJJJJJJJJJJJJJJJJJJJ""                  
+               "JJJJJJJJJJJ!!!!!!!!!!JJJJJJJJJJJ"               
+            "JJJJJJJJ!!!```````^^rrr````!!!JJJJJJJJ"            
+          "JJJJJJJ!``````````^rrrrr^`````````!JJJJJJJ"          
+        "JJJJJJ!```````````^rrrrr^``````````````!JJJJJJ"        
+   _rr"JJJJJJ!```````````^rrrrr^``````````````````!JJJJJJ"      
+  _rvJJJJJJ!```````````^rrrrr^`````````````````!!!!!!JJJJJ"     
+  _vJJJJJJ````````````^rrrr^```!`````````````!"     "!JJJJJJ    
+   JJJJJv````````````^rrrr^`````!!!`````````!" ""   "v!!JJJJJ   
+  JJJJJvrr``````````^rrrr^``````!!`````````!"  """ ""_J`!JJJJJ  
+ "JJJJJrrr`````````^rrrr^````````!!!``````!"     """ "!``JJJJJ" 
+ JJJJJrrrrr```````^rrrr^```````````!J!!!!"          "!````JJJJJ 
+"JJJJ!^rrrr``````^rrrr^``````````````!""           "!`````!JJJJ"
+JJJJJ``rrrrr````^rrrr^``````````````````!!!"""""""!````````JJJJJ
+JJJJJ``rrrrr```^rrrr^``````````````````````````````````````JJJJJ
+JJJJJ```rrrrr``rrrr^```````````````````````````````````````JJJJJ
+JJJJJ```rrrrr`rrrrr````!```````````````````````````````````JJJJJ
+"JJJJ!```rrrr"rrrr`````!!``````````!!!!!!`````````````````!JJJJ"
+ JJJJJ```^rriiirr^```!!``````````!"      "!```````````````JJJJJ 
+ "JJJJJ```rrr"vr^`````!!!```````!" """     J`````````````JJJJJ" 
+  JJJJJ!```^rrr^```````!!```````J       "" J````````````!JJJJJ  
+   JJJJJ!`````````````J````````J   """""   J```````````!JJJJJ   
+    JJJJJJ````````````!!!!!!!!"      ""_" J```````````JJJJJJ    
+     "JJJJJ!````````````!""""           "!``````````!JJJJJ"     
+      "JJJJJJ!```````````````!!!!!!"""!!``````````!JJJJJJ"      
+        "JJJJJJ!````````````````````````````````!JJJJJJ"        
+          "JJJJJJJ!``````````````````````````!JJJJJJJ"          
+            "JJJJJJJJ!!!````````````````!!!JJJJJJJJ"            
+               "JJJJJJJJJJJ!!!!!!!!!!JJJJJJJJJJJ"               
+                  ""JJJJJJJJJJJJJJJJJJJJJJJJ""                  
+                       """"JJJJJJJJJJ""""                       
+
+=========================================================================================================================
+
+{LOADING: {TYPE: 1, TIME: 5.0, INTERVAL: 0.5, UNIT: SEC}, SHOW: {TYPE: MOMENT, TIME: 30, INTERVAL: 5, UNIT: FRAME}}
